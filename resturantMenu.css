@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuContainer {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.menuBox {
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 8px gray;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.menuBox img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    width: 95%;
+    margin: 10px auto;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.btn {
+    text-align: center;
+}
+
+#desc {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.num {
+    font-size: larger;
+    color: blue;
+}
+
+
+/* next and previous buttons */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: rgb(194, 140, 140);
+    color: black;
+}
+
+.previous {
+    background-color: #04AA6D;
+    color: black;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
